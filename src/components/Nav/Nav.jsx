@@ -39,7 +39,9 @@ function BrandExample() {
               </Nav.Link>
               <span className="search-bar">
                 <input placeholder="Search the web" />
-                <Button variant="dark">Dark</Button>{" "}
+                <Button variant="dark">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </Button>{" "}
               </span>
             </Nav>
           </Navbar.Collapse>
