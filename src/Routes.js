@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+import Home from "./pages/home/Home.jsx";
 
 // components
 // import Routes from "./Routes";
@@ -6,7 +7,7 @@ import { Routes, Route } from "react-router-dom";
 export default function R() {
   return (
     <Routes>
-      <Route path="/home" />
+      <Route path="/home" element={<Home />} />
     </Routes>
   );
 }
