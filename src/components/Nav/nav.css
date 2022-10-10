@@ -22,7 +22,21 @@
 .search-bar {
   font-size: 1rem;
   border: 2px solid black;
+  /* border-radius: 0 100% 100% 0; */
   /* border-start-end-radius: 30%; */
   /* border-bottom-right-radius: 30%; */
   overflow: hidden;
+}
+
+.search-bar input {
+  border: none;
+}
+
+.search-bar input:focus {
+  outline: none;
+  /* display: none; */
+}
+
+.search-bar button {
+  border-radius: 0 100% 100% 0;
 }
