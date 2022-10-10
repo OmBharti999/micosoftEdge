@@ -3,17 +3,17 @@ import Navbar from "react-bootstrap/Navbar";
 // import Container from 'react-bootstrap/Container';
 import Nav from "react-bootstrap/Nav";
 // import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from "react-bootstrap/NavDropdown";
+import Button from "react-bootstrap/Button";
 
 import "./nav.css";
-import { Button } from "bootstrap";
+// import { Button } from "bootstrap";
 
 function BrandExample() {
   return (
     <>
       <Navbar bg="light" fixed="bottom" className="nav-container">
-        <Container>
-          <Navbar.Brand className="nav-bar" href="#home">
+        <Container className="nav-container">
+          <Navbar.Brand className="nav-bar " href="#home">
             <img
               alt=""
               src="/favicon.png"
@@ -28,17 +28,19 @@ function BrandExample() {
 
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav>
-              <Nav.Link href="#features">Features</Nav.Link>
-              <Nav.Link href="#pricing">Pricing</Nav.Link>
-              <Nav.Link href="#features">Features</Nav.Link>
+            <Nav className="nav-container nav-sec-text">
+              <Nav.Link href="#features">News feed</Nav.Link>
+              <Nav.Link href="#pricing">Shopping in sidebar</Nav.Link>
+              <Nav.Link href="#features">Shopping activity</Nav.Link>
 
-              <Nav.Link href="#deets">More deets</Nav.Link>
+              <Nav.Link href="#deets">Sidebar</Nav.Link>
               <Nav.Link eventKey={2} href="#memes">
-                Dank memes
+                Get started
               </Nav.Link>
-              <input placeholder="Search the web" />
-              <button>hi</button>
+              <span className="search-bar">
+                <input placeholder="Search the web" />
+                <Button variant="dark">Dark</Button>{" "}
+              </span>
             </Nav>
           </Navbar.Collapse>
         </Container>

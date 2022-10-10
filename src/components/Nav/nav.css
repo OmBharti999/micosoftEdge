@@ -6,3 +6,23 @@
   display: flex;
   gap: 10px;
 }
+.nav-container {
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  /* align-items: space-around; */
+}
+
+.nav-sec-text {
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-bar {
+  font-size: 1rem;
+  border: 2px solid black;
+  /* border-start-end-radius: 30%; */
+  /* border-bottom-right-radius: 30%; */
+  overflow: hidden;
+}
