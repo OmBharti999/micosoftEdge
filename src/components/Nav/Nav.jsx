@@ -6,11 +6,12 @@ import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
 import "./nav.css";
+import { Button } from "bootstrap";
 
 function BrandExample() {
   return (
     <>
-      <Navbar bg="light">
+      <Navbar bg="light" fixed="bottom" className="nav-container">
         <Container>
           <Navbar.Brand className="nav-bar" href="#home">
             <img
@@ -37,6 +38,7 @@ function BrandExample() {
                 Dank memes
               </Nav.Link>
               <input placeholder="Search the web" />
+              <button>hi</button>
             </Nav>
           </Navbar.Collapse>
         </Container>
