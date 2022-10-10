@@ -2,6 +2,16 @@
   font-size: small;
   font-weight: 600;
 }
+/* for all anchor */
+.anchor {
+  text-decoration: none;
+  color: #423737;
+}
+.anchor:hover {
+  color: #423737;
+}
+
+/* for nav */
 .nav-bar {
   display: flex;
   gap: 10px;

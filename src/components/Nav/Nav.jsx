@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 // import Navbar from 'react-bootstrap/Navbar';
 import Button from "react-bootstrap/Button";
-
+import { Link } from "react-router-dom";
 import "./nav.css";
 // import { Button } from "bootstrap";
 
@@ -13,15 +13,18 @@ function BrandExample() {
     <>
       <Navbar bg="light" fixed="bottom" className="nav-container">
         <Container className="nav-container">
-          <Navbar.Brand className="nav-bar " href="#home">
-            <img
-              alt=""
-              src="/favicon.png"
-              width="20"
-              height="20"
-              className="d-inline-block align-top"
-            />{" "}
-            <span id="tit">Here's what's new in Microsoft Edge </span>
+          <Navbar.Brand className="nav-bar ">
+            <Link className="nav-bar anchor" to="/home">
+              {" "}
+              <img
+                alt=""
+                src="/favicon.png"
+                width="20"
+                height="20"
+                className="d-inline-block align-top"
+              />{" "}
+              <span id="tit">Here's what's new in Microsoft Edge </span>
+            </Link>
           </Navbar.Brand>
 
           {/*  */}

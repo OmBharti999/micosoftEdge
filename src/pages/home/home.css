@@ -1,0 +1,51 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  margin: 20%;
+  justify-content: center;
+  text-align: center;
+
+  /* vertical-align: middle; */
+  /* align-content: center; */
+}
+
+/* for coloring microsft edge */
+
+.spacialcolor {
+  position: absolute;
+  width: 100px;
+  background: linear-gradient(
+    45deg,
+    red 0%,
+    orange 25%,
+
+    blue 100%
+  );
+  z-index: -1;
+}
+
+.home-page h3 {
+  /* position: relative; */
+}
+.span-back {
+  /* background: linear-gradient();
+     */
+  /* position: absolute; */
+  /* z-index: 5; */
+  color: red;
+
+  /* background: linear-gradient(
+    45deg,
+    red 0%,
+    orange 25%,
+
+    blue 100%
+  ); */
+}
+
+/* button */
+.btn-letgo {
+  width: 8rem;
+  padding: 0.6rem;
+  margin: auto;
+}
