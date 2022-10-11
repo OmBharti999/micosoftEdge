@@ -40,9 +40,11 @@ function BrandExample() {
               <Nav.Link href="#Shoppingactivity">Shopping activity</Nav.Link>
 
               <Nav.Link href="#sidebar">Sidebar</Nav.Link>
-              <Nav.Link eventKey={2} href="#getStarted">
-                Get started
-              </Nav.Link>
+              <Link className="nav-bar anchor" to="/getStarted">
+                <Nav.Link eventKey={2} href="#getStarted">
+                  Get started
+                </Nav.Link>
+              </Link>
               <span className="search-bar">
                 <input placeholder="Search the web" />
                 <Button variant="dark">
