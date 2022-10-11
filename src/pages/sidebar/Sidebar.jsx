@@ -1,4 +1,11 @@
 import "./si.css";
 export default function Sidebar() {
-  return <>Microsoft Edge has been updated</>;
+  return (
+    <div className="sidebar-conataier">
+      <div>Microsoft Edge has been updated</div>
+      <div>
+        <img scr="" />
+      </div>
+    </div>
+  );
 }

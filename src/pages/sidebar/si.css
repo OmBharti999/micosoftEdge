@@ -1,0 +1,5 @@
+.sidebar-conataier {
+  display: flex;
+  background: red;
+  height: 100vh;
+}
