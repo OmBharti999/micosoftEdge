@@ -1,7 +1,14 @@
 .sidebar-conataier {
   display: flex;
-  background: blueviolet;
+  /* background: blueviolet; */
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+.sidebar-first {
+  flex: 1.4;
+}
+.sidebar-sec {
+  flex: 2.6;
+  z-index: 5;
 }
