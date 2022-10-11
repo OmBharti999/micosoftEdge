@@ -1,5 +1,7 @@
 .sidebar-conataier {
   display: flex;
   background: red;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
 }
