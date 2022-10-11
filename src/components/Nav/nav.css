@@ -3,12 +3,23 @@
   font-weight: 600;
 }
 /* for all anchor */
+
 .anchor {
   text-decoration: none;
   color: #423737;
 }
 .anchor:hover {
   color: #423737;
+}
+.nav-img-span {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.nav-img-span img {
+  margin-top: 5.5px;
+  margin-right: 1vw;
 }
 
 /* for nav */
