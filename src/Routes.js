@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/home/Home.jsx";
+import Sidebar from "./pages/sidebar/Sidebar";
 import GetStarted from "./pages/getStarted/GetStarted";
 
 // components
@@ -9,6 +10,7 @@ export default function R() {
   return (
     <Routes>
       <Route path="/home" element={<Home />} />
+      <Route path="/sidebar" element={<Sidebar />} />
       <Route path="/getStarted" element={<GetStarted />} />
     </Routes>
   );
