@@ -1,4 +1,4 @@
-import Button from "react-bootstrap/Button";
+import But from "../button/But";
 import Card from "react-bootstrap/Card";
 
 function BasicExample(p) {
@@ -6,12 +6,9 @@ function BasicExample(p) {
     <Card style={{ width: "18rem" }}>
       <Card.Img variant="top" src={p.det.src} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Card.Title>{p.det.title}</Card.Title>
+        <Card.Text>{p.det.detail} </Card.Text>
+        <But text={p.det.buttontext}/>
       </Card.Body>
     </Card>
   );

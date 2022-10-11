@@ -7,21 +7,24 @@ import Img3 from "./img/micro3rd.png";
 const arr = [
   {
     src: Img1,
-    discription: "Import your browsing data",
+    title: "Import your browsing data",
     detail:
       "Get your history, favorites, passwords and more from other browsers, so you can continue browsing seamlessly.",
+    buttontext: "Import",
   },
   {
     src: Img2,
-    discription: "Stay in sync while on the go",
+    title: "Stay in sync while on the go",
     detail:
       "Download the Microsoft Edge app to continue browsing on your phone and stay in sync across your devices.",
+    buttontext: "Download Now",
   },
   {
     src: Img3,
-    discription: "Discover more features",
+    title: "Discover more features",
     detail:
       "Learn about the easy-to-use built-in tools that help protect you online, improve performance, and save money when you shop.",
+    buttontext: "Explore",
   },
 ];
 
