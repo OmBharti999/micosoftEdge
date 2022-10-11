@@ -33,7 +33,7 @@ const arr = [
 
 export default function GetStarted() {
   return (
-    <>
+    < div className="getstarcontainer">
       <h2>
         You're three steps away from getting the best browsing experience.
       </h2>
@@ -48,6 +48,6 @@ export default function GetStarted() {
       <Button variant="primary">
         Start Browsing<i class="fa-solid fa-inbox-out"></i>
       </Button>{" "}
-    </>
+    </div>
   );
 }
