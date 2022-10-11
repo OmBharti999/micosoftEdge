@@ -1,0 +1,5 @@
+.div-container-card {
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+}

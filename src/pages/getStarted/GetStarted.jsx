@@ -3,6 +3,9 @@ import Card from "../../components/card/Card";
 import Img1 from "./img/mico1st.png";
 import Img2 from "./img/mico2nd.png";
 import Img3 from "./img/micro3rd.png";
+import "./getStarted.css";
+// import { Button } from "bootstrap";
+import Button from "react-bootstrap/Button";
 
 const arr = [
   {
@@ -28,17 +31,23 @@ const arr = [
   },
 ];
 
-import "./getStarted.css";
 export default function GetStarted() {
   return (
     <>
       <h2>
         You're three steps away from getting the best browsing experience.
       </h2>
-      {/* <Img1 /> */}
-      {arr.map((i) => (
-        <Card det={i} />
-      ))}
+      <div className="div-container-card">
+        {" "}
+        {/* <Img1 /> */}
+        {arr.map((i) => (
+          <Card det={i} />
+        ))}
+      </div>
+      <h3>Enjoy these latest features and much more with Microsoft Edge.</h3>
+      <Button variant="primary">
+        Start Browsing<i class="fa-solid fa-inbox-out"></i>
+      </Button>{" "}
     </>
   );
 }
