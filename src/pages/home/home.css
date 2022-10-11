@@ -10,7 +10,7 @@
 }
 
 /* for coloring microsft edge */
-
+/* 
 .spacialcolor {
   position: absolute;
   width: 100px;
@@ -22,26 +22,37 @@
     blue 100%
   );
   z-index: -1;
-}
+} */
 
 .home-page h3 {
   /* position: relative; */
 }
-.span-back {
+/* .span-back {
+  background: linear-gradient(
+    45deg,
+    red 0%,
+    orange 25%,
+
+    blue 100%
+  );
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   /* background: linear-gradient();
      */
-  /* position: absolute; */
-  /* z-index: 5; */
-  color: #1a3f65;
+/* position: absolute; */
+/* z-index: 5; */
+/* color: #1a3f65; */
 
-  /* background: linear-gradient(
+/* background: linear-gradient(
     45deg,
     red 0%,
     orange 25%,
 
     blue 100%
   ); */
-}
+/* } */
 
 /* button */
 .btn-letgo {

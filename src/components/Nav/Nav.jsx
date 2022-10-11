@@ -16,15 +16,18 @@ function BrandExample() {
           <Navbar.Brand className="nav-bar">
             <Link className="nav-bar anchor" to="/home">
               {" "}
-              <img
-                alt=""
-                src="/favicon.png"
-                width="20"
-                height="20"
-                className="d-inline-block align-top"
-              />{" "}
-              <span id="tit">Here's what's new in Microsoft Edge </span>
-            </Link>
+              <Nav.Link className="nav-img-span" href="#home">
+                {" "}
+                <img
+                  alt=""
+                  src="/favicon.png"
+                  width="20"
+                  height="20"
+                  className="d-inline-block align-top"
+                />{" "}
+                <span id="tit">Here's what's new in Microsoft Edge </span>{" "}
+              </Nav.Link>{" "}
+            </Link>{" "}
           </Navbar.Brand>
 
           {/*  */}
@@ -32,12 +35,12 @@ function BrandExample() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="nav-container nav-sec-text">
-              <Nav.Link href="#features">News feed</Nav.Link>
-              <Nav.Link href="#pricing">Shopping in sidebar</Nav.Link>
-              <Nav.Link href="#features">Shopping activity</Nav.Link>
+              <Nav.Link href="#feeds">News feed</Nav.Link>
+              <Nav.Link href="#Shopping">Shopping in sidebar</Nav.Link>
+              <Nav.Link href="#Shoppingactivity">Shopping activity</Nav.Link>
 
-              <Nav.Link href="#deets">Sidebar</Nav.Link>
-              <Nav.Link eventKey={2} href="#memes">
+              <Nav.Link href="#sidebar">Sidebar</Nav.Link>
+              <Nav.Link eventKey={2} href="#getStarted">
                 Get started
               </Nav.Link>
               <span className="search-bar">

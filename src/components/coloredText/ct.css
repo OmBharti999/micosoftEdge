@@ -1,0 +1,26 @@
+.span-back {
+  background: linear-gradient(
+    45deg,
+    red 0%,
+    orange 25%,
+
+    blue 100%
+  );
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* background: linear-gradient();
+     */
+  /* position: absolute; */
+  /* z-index: 5; */
+  color: #1a3f65;
+
+  /* background: linear-gradient(
+    45deg,
+    red 0%,
+    orange 25%,
+
+    blue 100%
+  ); */
+}
