@@ -9,7 +9,8 @@ export default function GetStarted() {
   return (
     <><h2>You're three steps away from getting the best browsing experience.
     </h2>
-      <Card />
+      <Img1 />
+      <Card img={<Img1 />} />
     </>
   );
 }
