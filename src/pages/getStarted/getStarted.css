@@ -1,6 +1,8 @@
 .getstarcontainer {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .div-container-card {
   display: flex;
@@ -9,8 +11,11 @@
   gap: 5%;
   margin: 4.5vh 0;
 }
-
-@media screen and (max-width: 1210px) {
-  gap: 3%;
-  margin: 4vh 0;
+.width-fix {
+  width: 14vw;
+}
+@media screen and (max-width: 1010px) {
+  .width-fix {
+    width: 10vw;
+  }
 }
