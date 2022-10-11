@@ -1,0 +1,58 @@
+#tit {
+  font-size: small;
+  font-weight: 600;
+}
+/* for all anchor */
+.anchor {
+  text-decoration: none;
+  color: #423737;
+}
+.anchor:hover {
+  color: #423737;
+}
+
+/* for nav */
+.nav-bar {
+  display: flex;
+  gap: 10px;
+}
+.nav-container {
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  /* align-items: space-around; */
+}
+
+.nav-sec-text {
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-bar {
+  display: flex;
+  font-size: 1rem;
+  /* border: 2px solid black; */
+  border-right: 0;
+  border-radius: 0 10% 10% 0;
+  /* border-start-end-radius: 30%; */
+  /* border-bottom-right-radius: 30%; */
+  overflow: hidden;
+}
+
+.search-bar input {
+  border: none;
+  border: 2px solid black;
+  font-size: 1rem;
+}
+
+.search-bar input:focus {
+  outline: none;
+  /* display: none; */
+}
+
+.search-bar button {
+  /* height: 50%; */
+  font-size: 0.7rem;
+  border-radius: 0 100% 100% 0;
+}

@@ -1,63 +1,57 @@
-import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
-import Form from "react-bootstrap/Form";
-import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import Offcanvas from "react-bootstrap/Offcanvas";
+// import Container from 'react-bootstrap/Container';
+import Nav from "react-bootstrap/Nav";
+// import Navbar from 'react-bootstrap/Navbar';
+import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
+import "./nav.css";
+// import { Button } from "bootstrap";
 
-function OffcanvasExample() {
+function BrandExample() {
   return (
     <>
-      {[false, "sm", "md", "lg", "xl", "xxl"].map((expand) => (
-        <Navbar key={expand} bg="light" expand={expand} className="mb-3">
-          <Container fluid>
-            <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand>
-            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
-            <Navbar.Offcanvas
-              id={`offcanvasNavbar-expand-${expand}`}
-              aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
-              placement="end"
-            >
-              <Offcanvas.Header closeButton>
-                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  Offcanvas
-                </Offcanvas.Title>
-              </Offcanvas.Header>
-              <Offcanvas.Body>
-                <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="#action1">Home</Nav.Link>
-                  <Nav.Link href="#action2">Link</Nav.Link>
-                  <NavDropdown
-                    title="Dropdown"
-                    id={`offcanvasNavbarDropdown-expand-${expand}`}
-                  >
-                    <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action4">
-                      Another action
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action5">
-                      Something else here
-                    </NavDropdown.Item>
-                  </NavDropdown>
-                </Nav>
-                <Form className="d-flex">
-                  <Form.Control
-                    type="search"
-                    placeholder="Search"
-                    className="me-2"
-                    aria-label="Search"
-                  />
-                  <Button variant="outline-success">Search</Button>
-                </Form>
-              </Offcanvas.Body>
-            </Navbar.Offcanvas>
-          </Container>
-        </Navbar>
-      ))}
+      <Navbar bg="light" fixed="bottom" className="nav-container">
+        <Container className="nav-container">
+          <Navbar.Brand className="nav-bar">
+            <Link className="nav-bar anchor" to="/home">
+              {" "}
+              <img
+                alt=""
+                src="/favicon.png"
+                width="20"
+                height="20"
+                className="d-inline-block align-top"
+              />{" "}
+              <span id="tit">Here's what's new in Microsoft Edge </span>
+            </Link>
+          </Navbar.Brand>
+
+          {/*  */}
+
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="nav-container nav-sec-text">
+              <Nav.Link href="#features">News feed</Nav.Link>
+              <Nav.Link href="#pricing">Shopping in sidebar</Nav.Link>
+              <Nav.Link href="#features">Shopping activity</Nav.Link>
+
+              <Nav.Link href="#deets">Sidebar</Nav.Link>
+              <Nav.Link eventKey={2} href="#memes">
+                Get started
+              </Nav.Link>
+              <span className="search-bar">
+                <input placeholder="Search the web" />
+                <Button variant="dark">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </Button>{" "}
+              </span>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
     </>
   );
 }
 
-export default OffcanvasExample;
+export default BrandExample;
