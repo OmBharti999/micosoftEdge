@@ -11,3 +11,16 @@
 .btn-letgo:hover {
   background: #052749;
 }
+
+/* for 2nd */
+.btn-letgo2{
+  background: white;
+  border-radius: 5px;
+  color: #2fb8bd;
+  border: 1px solid #2fb8bd;
+}
+.btn-letgo2:hover{
+  background: white;
+  color: #170549;
+  border: 1px solid #170549;
+}

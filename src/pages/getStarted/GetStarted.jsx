@@ -33,7 +33,7 @@ const arr = [
 
 export default function GetStarted() {
   return (
-    <>
+    <div className="getstarcontainer">
       <h2>
         You're three steps away from getting the best browsing experience.
       </h2>
@@ -44,10 +44,10 @@ export default function GetStarted() {
           <Card det={i} />
         ))}
       </div>
-      <h3>Enjoy these latest features and much more with Microsoft Edge.</h3>
-      <Button variant="primary">
+      <h5>Enjoy these latest features and much more with Microsoft Edge.</h5>
+      <Button variant="primary width-fix">
         Start Browsing<i class="fa-solid fa-inbox-out"></i>
       </Button>{" "}
-    </>
+    </div>
   );
 }

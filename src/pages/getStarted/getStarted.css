@@ -1,5 +1,21 @@
+.getstarcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .div-container-card {
   display: flex;
+  height: 65vh;
   justify-content: center;
-  gap: 5vw;
+  gap: 5%;
+  margin: 4.5vh 0;
+}
+.width-fix {
+  width: 14vw;
+}
+@media screen and (max-width: 1010px) {
+  .width-fix {
+    width: 10vw;
+  }
 }

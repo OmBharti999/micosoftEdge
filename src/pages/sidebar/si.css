@@ -1,0 +1,29 @@
+.sidebar-conataier {
+  display: flex;
+  /* background: blueviolet; */
+  /* justify-content: center; */
+  align-items: center;
+  height: 100vh;
+}
+.sidebar-first {
+  flex: 1.4;
+  display: flex;
+  margin-left: 2vw;
+  flex-direction: column;
+}
+.sidebar-sec {
+  flex: 2.6;
+  z-index: 5;
+}
+.start{
+  text-align: left;
+}
+
+.btn-div-flex{
+  margin-top: 2vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap:1vw;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
