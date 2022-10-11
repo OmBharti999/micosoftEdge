@@ -3,6 +3,7 @@
 //   return <>Microsoft Edge has been updated</>}
 
 import CT from "../../components/coloredText/ColoredText";
+import But from "../../components/button/But";
 import "./home.css";
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
         <CT text="Microsoft Edge" /> has been updated
       </h1>
       <div>Choose the web browser that puts you first</div>
-      <button className="btn-letgo">Lets's go</button>
+      <But text="Lets's go" />
     </div>
   );
 }
