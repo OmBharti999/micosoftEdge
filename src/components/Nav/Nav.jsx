@@ -34,8 +34,10 @@ function BrandExample() {
             {/*  */}
             {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" /> */}
             <Navbar.Collapse id="responsive-navbar-nav">
-              <Nav.Link href="#feeds">News feed</Nav.Link>
-              <Nav.Link href="#Shopping">Shopping in sidebar</Nav.Link>
+            <Link className="nav-bar anchor" to=" /feeds"> <Nav.Link href="#feeds">News feed</Nav.Link></Link>
+
+              <Link className="nav-bar anchor" to=" /shopping">
+                <Nav.Link href="#Shopping">Shopping in sidebar</Nav.Link></Link>
               <Link className="nav-bar anchor" to="/activity">
                 <Nav.Link href="#Shoppingactivity">Shopping activity</Nav.Link>
               </Link>

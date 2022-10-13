@@ -1,4 +1,4 @@
-// import ImgSide from "./img/sidebar.png";
+import slide from "./slide.mp4";
 import Ct from "../../components/coloredText/ColoredText";
 import But from "../../components/button/But";
 import But2 from "../../components/button/But2";
@@ -27,8 +27,15 @@ export default function Activity() {
         </div>
       </div>
       <div className="sidebar-sec">
-        <img className="img-sidebar" src="#" alt="side" />
+        <video
+          muted="muted"
+          loop="loop"
+          preload="metadata"
+          draggable="false"
+          className="video-sidebar">
+          <source src={slide} type="video/mp4" />
+        </video>
       </div>
-    </div>
+    </div >
   );
 }
