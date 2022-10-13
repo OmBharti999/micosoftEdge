@@ -16,7 +16,7 @@ export default function R() {
       <Route path="/sidebar" element={<Sidebar />} />
       <Route path="/getStarted" element={<GetStarted />} />
       <Route path="/activity" element={<Activity />} />
-      <Route path="/shopping" element={<Shopping />} />
+      <Route path="/Shopping" element={<Shopping />} />
       {/* <Route path="/feeds" element={<Feeds />} /> */}
     </Routes>
   );
