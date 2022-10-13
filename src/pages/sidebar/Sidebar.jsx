@@ -27,7 +27,7 @@ export default function Sidebar() {
         </div>
       </div>
       <div className="sidebar-sec">
-        <img src={ImgSide} alt="side" />
+        <img className="img-sidebar" src={ImgSide} alt="side" />
       </div>
     </div>
   );
