@@ -16,14 +16,18 @@ export default function Sidebar() {
         <div className="start">
           Get more done on the web with tools, apps, and more just a click away.
           Say goodbye to switching tabs.
-          <div className="btn-div-flex"><But2 text="Office on sidebar" /><But2 text="Outlook on sidebar" /><But2 text="Discover on sidebar" /></div>
+          <div className="btn-div-flex">
+            <But2 text="Office on sidebar" />
+            <But2 text="Outlook on sidebar" />
+            <But2 text="Discover on sidebar" />
+          </div>
         </div>
         <div className="start">
           <But text="Next" />
         </div>
       </div>
       <div className="sidebar-sec">
-        <img className="sidebar-sec" scr={ImgSide} alt="side" />
+        <img className="img-sidebar" src={ImgSide} alt="side" />
       </div>
     </div>
   );
