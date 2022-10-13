@@ -13,17 +13,19 @@
 }
 .sidebar-sec {
   flex: 2.6;
-  z-index: 5;
+  /* height: 100px; */
+  /* width: 100px; */
+  /* z-index: 5; */
 }
-.start{
+.start {
   text-align: left;
 }
 
-.btn-div-flex{
+.btn-div-flex {
   margin-top: 2vh;
   display: flex;
   flex-wrap: wrap;
-  gap:1vw;
+  gap: 1vw;
   /* justify-content: center; */
   /* align-items: center; */
 }

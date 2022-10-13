@@ -13,33 +13,29 @@ function BrandExample() {
     <>
       <Navbar bg="light" fixed="bottom" className="nav-container">
         <Container className="nav-container">
-          <Navbar.Brand className="nav-bar">
-            <Link className="nav-bar anchor" to="/home">
-              {" "}
-              <Nav.Link className="nav-img-span" href="#home">
+          <Nav>
+            {" "}
+            <Navbar.Brand className="nav-bar">
+              <Link className="nav-bar anchor" to="/home">
                 {" "}
-                <img
-                  alt=""
-                  src="/favicon.png"
-                  width="20"
-                  height="20"
-                  className="d-inline-block align-top"
-                />{" "}
-                <span id="tit">Here's what's new in Microsoft Edge </span>{" "}
-              </Nav.Link>{" "}
-            </Link>{" "}
-          </Navbar.Brand>
-
-          {/*  */}
-
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="nav-container nav-sec-text">
+                <Nav.Link className="nav-img-span" href="#home">
+                  {" "}
+                  <img
+                    alt=""
+                    src="/favicon.png"
+                    width="20"
+                    height="20"
+                    className="d-inline-block align-top"
+                  />{" "}
+                  <span id="tit">Here's what's new in Microsoft Edge </span>{" "}
+                </Nav.Link>{" "}
+              </Link>{" "}
+            </Navbar.Brand>
+            {/*  */}
+            {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" /> */}
+            <Navbar.Collapse id="responsive-navbar-nav">
               <Nav.Link href="#feeds">News feed</Nav.Link>
               <Nav.Link href="#Shopping">Shopping in sidebar</Nav.Link>
-
-
-
               <Link className="nav-bar anchor" to="/activity">
                 <Nav.Link href="#Shoppingactivity">Shopping activity</Nav.Link>
               </Link>
@@ -59,8 +55,8 @@ function BrandExample() {
                   <i class="fa-solid fa-magnifying-glass"></i>
                 </Button>{" "}
               </span>
-            </Nav>
-          </Navbar.Collapse>
+            </Navbar.Collapse>
+          </Nav>
         </Container>
       </Navbar>
     </>
