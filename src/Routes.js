@@ -3,7 +3,7 @@ import Home from "./pages/home/Home.jsx";
 import Sidebar from "./pages/sidebar/Sidebar";
 import GetStarted from "./pages/getStarted/GetStarted";
 import Activity from "./pages/shoppingActivity/Activity";
-import Shopping from "./pages/shopping/Shopping";
+import Shopping from "./pages/shoppingInSidebar/Shopping";
 // import Feeds from "./pages/feed/Feed";
 
 // components

@@ -8,7 +8,7 @@ import "./shopping.css";
 export default function Shopping() {
     return (
         <div className="sidebar-conataier">
-            <div className="sidebar-first">
+            {/* <div className="sidebar-first">
                 <h1 className="start">
                     {" "}
                     <Ct text="Multitasking" /> with your sidebar{" "}
@@ -27,8 +27,8 @@ export default function Shopping() {
                 </div>
             </div>
             <div className="sidebar-sec">
-                <img className="img-sidebar" src={ImgSide} alt="side" />
-            </div>
+                <img className="img-sidebar" src="" alt="side" />
+            </div> */}
         </div>
     );
 }
