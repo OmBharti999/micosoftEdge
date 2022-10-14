@@ -3,10 +3,10 @@ import But from "../../components/button/But";
 import Card2 from "../../components/card2/Card2";
 
 import { Link } from "react-router-dom";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import "./feed.css";
 
-const news = {
+var gonews = {
   status: "ok",
   totalResults: 1334,
   articles: [
@@ -1662,12 +1662,14 @@ const news = {
 };
 
 export default function Feed() {
+  const [news, setNews] = useState(gonews);
   async function feching() {
     // const response = await fetch(
     //   "https://newsapi.org/v2/everything?q=Apple&from=2022-10-14&sortBy=popularity&apiKey=c3682df6d281466b997bf564a81ade37"
     // );
     // const data = await response.json();
     // console.log("data", data);
+    // setNews(data);
   }
   useEffect(() => {
     feching();

@@ -6,13 +6,17 @@ import "./card2.css";
 export default function Card2({ imgsrc, title, content, url }) {
   return (
     <Card style={{ width: "16rem" }}>
-      <Card.Img variant="top" src={imgsrc} />
+      <Card.Img variant="top" src={imgsrc} loading="lazy" />
       <Card.Body>
-        <Card.Title>{title}</Card.Title>
-        <Card.Text>{content} </Card.Text>
+        <span className="title-news">
+          {" "}
+          <Card.Title>{title}</Card.Title>
+        </span>
         <a href={url}>
           {" "}
-          <Button variant="primary">Go somewhere</Button>
+          <span className="content-news">
+            <Card.Text>{content} </Card.Text>
+          </span>
         </a>
       </Card.Body>
     </Card>
