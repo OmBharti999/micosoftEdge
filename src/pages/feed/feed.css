@@ -1,3 +1,8 @@
+.sidebar-conataier {
+  display: flex;
+  /* flex-direction: column-reverse; */
+  /* align-items: flex-start; */
+}
 .sidebar-sec {
   display: flex;
   justify-content: center;
@@ -7,4 +12,39 @@
 /*  */
 .sidebar-sec::-webkit-scrollbar {
   display: none;
+}
+
+@media screen and (max-width: 955px) {
+  .sidebar-first {
+    width: 100%;
+    /* margin-top: 0; */
+    margin-top: 7vh;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .sidebar-first {
+    margin-top: 12vh;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  sidebar-conataier {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    /* flex-direction: column-reverse; */
+    /* align-items: flex-start; */
+  }
+  .sidebar-first {
+    display: flex;
+    width: 100%;
+    /* margin-top: 0; */
+    margin-top: 20vh;
+  }
+  .sidebar-sec {
+    display: flex;
+
+    width: 100%;
+  }
 }

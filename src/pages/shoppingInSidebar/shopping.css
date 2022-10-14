@@ -32,22 +32,21 @@
 }
 
 /* image in side bar */
-.video-sidebar {
+.imge-sidebar {
   width: 90%;
 }
 
 @media screen and (max-width: 950px) {
   .sidebar-conataier {
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-left: 5vw;
+    /* align-items: ; */
   }
   .sidebar-first {
-    margin-top: 10px;
-    flex: 1;
-  }
-  .sidebar-sec {
-    flex: 1;
+    /* margin-top: -10vh; */
+    /* margin-left: 10vw; */
+    /* align-items: center; */
   }
 }
 @media screen and (max-width: 465px) {

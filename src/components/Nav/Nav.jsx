@@ -11,7 +11,13 @@ import "./nav.css";
 function BrandExample() {
   return (
     <>
-      <Navbar bg="light" fixed="bottom" className="nav-container">
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        bg="light"
+        fixed="bottom"
+        className="nav-container"
+      >
         <Container className="nav-container">
           <Nav>
             {" "}
@@ -32,34 +38,37 @@ function BrandExample() {
               </Link>{" "}
             </Navbar.Brand>
             {/*  */}
-            {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" /> */}
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-              <Link className="nav-bar anchor" to="/feeds">
+              <Nav className="me-auto flex-type">
                 {" "}
-                <Nav.Link href="#feeds">News feed</Nav.Link>
-              </Link>
-              <Link className="nav-bar anchor" to="/Shopping">
-                <Nav.Link href="/Shopping">Shopping in sidebar</Nav.Link>
-              </Link>
-              <Link className="nav-bar anchor" to="/activity">
-                <Nav.Link href="/activity">Shopping activity</Nav.Link>
-              </Link>
-              {/* "/sidebar" */}
-              <Link className="nav-bar anchor" to="/sidebar">
-                {" "}
-                <Nav.Link href="/sidebar">Sidebar</Nav.Link>
-              </Link>{" "}
-              <Link className="nav-bar anchor" to="/getStarted">
-                <Nav.Link eventKey={2} href="/getStarted">
-                  Get started
-                </Nav.Link>
-              </Link>
-              <span className="search-bar">
-                <input placeholder="Search the web" />
-                <Button variant="dark">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </Button>{" "}
-              </span>
+                <Link className="nav-bar anchor" to="/feeds">
+                  {" "}
+                  <Nav.Link href="#feeds">News feed</Nav.Link>
+                </Link>
+                <Link className="nav-bar anchor" to="/Shopping">
+                  <Nav.Link href="/Shopping">Shopping in sidebar</Nav.Link>
+                </Link>
+                <Link className="nav-bar anchor" to="/activity">
+                  <Nav.Link href="/activity">Shopping activity</Nav.Link>
+                </Link>
+                {/* "/sidebar" */}
+                <Link className="nav-bar anchor" to="/sidebar">
+                  {" "}
+                  <Nav.Link href="/sidebar">Sidebar</Nav.Link>
+                </Link>{" "}
+                <Link className="nav-bar anchor" to="/getStarted">
+                  <Nav.Link eventKey={2} href="/getStarted">
+                    Get started
+                  </Nav.Link>
+                </Link>
+                <span className="search-bar">
+                  <input placeholder="Search the web" />
+                  <Button variant="dark">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </Button>{" "}
+                </span>
+              </Nav>
             </Navbar.Collapse>
           </Nav>
         </Container>

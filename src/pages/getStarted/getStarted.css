@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100vw;
 }
 .div-container-card {
   display: flex;
@@ -14,8 +15,21 @@
 .width-fix {
   width: 14vw;
 }
-@media screen and (max-width: 1010px) {
+@media screen and (max-width: 1047px) {
+  .getstarcontainer {
+    align-self: flex-start;
+    /* min-height: 500vh; */
+  }
+  .div-container-card {
+    flex-direction: column;
+    height: 50vh;
+    overflow: scroll;
+    gap: 2vh;
+  }
   .width-fix {
-    width: 10vw;
+    width: auto;
+  }
+  .my-btn-77 {
+    font-size: 70%;
   }
 }

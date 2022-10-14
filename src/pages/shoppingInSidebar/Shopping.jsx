@@ -26,7 +26,7 @@ export default function Shopping() {
         </div>
       </div>
       <div className="sidebar-sec">
-        <img className="img-sidebar" src={ImgSide} alt="img-shopping" />
+        <img className="imge-sidebar" src={ImgSide} alt="img-shopping" />
       </div>
     </div>
   );
