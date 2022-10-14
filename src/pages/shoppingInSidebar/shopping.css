@@ -1,76 +1,75 @@
 .sidebar-conataier {
-    display: flex;
-    flex-direction: row;
-    /* background: blueviolet; */
-    /* justify-content: center; */
+  display: flex;
+  flex-direction: row;
+  /* background: blueviolet; */
+  /* justify-content: center; */
+  align-items: center;
+  height: 100vh;
+}
+.sidebar-first {
+  flex: 1.4;
+  display: flex;
+  margin-left: 2vw;
+  flex-direction: column;
+}
+.sidebar-sec {
+  flex: 2.6;
+  /* height: 100px; */
+  /* width: 100px; */
+  /* z-index: 5; */
+}
+.start {
+  text-align: left;
+}
+
+.btn-div-flex {
+  margin-top: 2vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1vw;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+/* image in side bar */
+.video-sidebar {
+  width: 90%;
+}
+
+@media screen and (max-width: 950px) {
+  .sidebar-conataier {
+    flex-direction: column-reverse;
+    justify-content: center;
     align-items: center;
-    height: 100vh;
   }
   .sidebar-first {
-    flex: 1.4;
-    display: flex;
-    margin-left: 2vw;
-    flex-direction: column;
+    margin-top: 10px;
+    flex: 1;
   }
   .sidebar-sec {
-    flex: 2.6;
-    /* height: 100px; */
-    /* width: 100px; */
-    /* z-index: 5; */
+    flex: 1;
   }
-  .start {
-    text-align: left;
+}
+@media screen and (max-width: 465px) {
+  .sidebar-conataier {
+    align-items: flex-start;
   }
-  
-  .btn-div-flex {
-    margin-top: 2vh;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1vw;
-    /* justify-content: center; */
-    /* align-items: center; */
+  .sidebar-first {
+    flex: 1;
+    margin-top: -10vh;
+    justify-content: center;
+    align-items: center;
   }
-  
-  /* image in side bar */
-  .video-sidebar {
-    width: 90%;
+  .sidebar-sec {
+    flex: 1;
   }
-  
-  @media screen and (max-width: 950px) {
-    .sidebar-conataier {
-      flex-direction: column-reverse;
-      justify-content: center;
-      align-items: center;
-    }
-    .sidebar-first {
-      margin-top: 10px;
-      flex: 1;
-    }
-    .sidebar-sec {
-      flex: 1;
-    }
+}
+@media screen and (max-width: 370px) {
+  .sidebar-conataier {
+    align-items: flex-start;
   }
-  @media screen and (max-width: 465px) {
-    .sidebar-conataier {
-      align-items: flex-start;
-    }
-    .sidebar-first {
-      flex: 1;
-      margin-top: -10vh;
-      justify-content: center;
-      align-items: center;
-    }
-    .sidebar-sec {
-      flex: 1;
-    }
+  .sidebar-first {
+    flex: 1;
+    margin-top: -30vh;
   }
-  @media screen and (max-width: 370px) {
-    .sidebar-conataier {
-      align-items: flex-start;
-    }
-    .sidebar-first {
-      flex: 1;
-      margin-top: -30vh;
-    }
-  }
-  
+}

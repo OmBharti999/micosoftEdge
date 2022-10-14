@@ -1,0 +1,20 @@
+/* for news fees */
+.news-feeds {
+  height: 60vh;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1vh;
+}
+
+.title-news {
+  font-weight: 800;
+  font-size: 1.1rem;
+}
+.content-news {
+  font-size: 0.81rem;
+}
+a {
+  text-decoration: none;
+}

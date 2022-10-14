@@ -1,0 +1,10 @@
+.sidebar-sec {
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+  overflow: scroll;
+}
+/*  */
+.sidebar-sec::-webkit-scrollbar {
+  display: none;
+}

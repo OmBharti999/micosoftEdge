@@ -2,6 +2,7 @@ import slide from "./slide.mp4";
 import Ct from "../../components/coloredText/ColoredText";
 import But from "../../components/button/But";
 import But2 from "../../components/button/But2";
+import { Link } from "react-router-dom";
 
 import "./acti.css";
 
@@ -23,19 +24,20 @@ export default function Activity() {
           </div>
         </div>
         <div className="start">
-          <But text="Next" />
+          <Link to="/sidebar"><But text="Next" /></Link>
         </div>
       </div>
       <div className="sidebar-sec">
         <video
-          muted="muted"
-          loop="loop"
-          preload="metadata"
+          autoplay="autoplay"
+          muted
+          loop
           draggable="false"
-          className="video-sidebar">
+          className="video-sidebar"
+        >
           <source src={slide} type="video/mp4" />
         </video>
       </div>
-    </div >
+    </div>
   );
 }

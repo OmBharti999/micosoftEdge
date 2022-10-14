@@ -2,6 +2,7 @@ import ImgSide from "./img/sidebar.png";
 import Ct from "../../components/coloredText/ColoredText";
 import But from "../../components/button/But";
 import But2 from "../../components/button/But2";
+import { Link } from "react-router-dom";
 
 import "./si.css";
 
@@ -23,7 +24,7 @@ export default function Sidebar() {
           </div>
         </div>
         <div className="start">
-          <But text="Next" />
+          <Link to="/getStarted"> <But text="Next" /></Link>
         </div>
       </div>
       <div className="sidebar-sec">

@@ -12,12 +12,7 @@
   margin-left: 2vw;
   flex-direction: column;
 }
-.sidebar-sec {
-  flex: 2.6;
-  /* height: 100px; */
-  /* width: 100px; */
-  /* z-index: 5; */
-}
+
 .start {
   text-align: left;
 }
@@ -31,9 +26,19 @@
   /* align-items: center; */
 }
 
+.sidebar-sec {
+  display: flex;
+  align-items: center;
+  flex: 2.6;
+  /* height: 100px; */
+  /* width: 100px; */
+  /* z-index: 5; */
+}
+
 /* image in side bar */
 .img-sidebar {
   width: 90%;
+  height: 77%;
 }
 
 @media screen and (max-width: 950px) {
