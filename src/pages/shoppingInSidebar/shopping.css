@@ -32,8 +32,9 @@
   }
   
   /* image in side bar */
-  .video-sidebar {
-    width: 90%;
+  .img-sidebar {
+    width: 80%;
+    margin-top: -25px;
   }
   
   @media screen and (max-width: 950px) {

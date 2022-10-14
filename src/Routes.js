@@ -4,7 +4,7 @@ import Sidebar from "./pages/sidebar/Sidebar";
 import GetStarted from "./pages/getStarted/GetStarted";
 import Activity from "./pages/shoppingActivity/Activity";
 import Shopping from "./pages/shoppingInSidebar/Shopping";
-// import Feeds from "./pages/feed/Feed";
+import Feed from "./pages/feed/Feed";
 
 // components
 // import Routes from "./Routes";
@@ -17,7 +17,7 @@ export default function R() {
       <Route path="/getStarted" element={<GetStarted />} />
       <Route path="/activity" element={<Activity />} />
       <Route path="/Shopping" element={<Shopping />} />
-      {/* <Route path="/feeds" element={<Feeds />} /> */}
+      <Route path="/feeds" element={<Feed />} />
     </Routes>
   );
 }

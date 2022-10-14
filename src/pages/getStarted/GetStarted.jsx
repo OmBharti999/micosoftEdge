@@ -4,7 +4,7 @@ import Img1 from "./img/mico1st.png";
 import Img2 from "./img/mico2nd.png";
 import Img3 from "./img/micro3rd.png";
 import "./getStarted.css";
-// import { Button } from "bootstrap";
+import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 
 const arr = [
