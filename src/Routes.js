@@ -12,6 +12,7 @@ import Feed from "./pages/feed/Feed";
 export default function R() {
   return (
     <Routes>
+      <Route path="/" element={<Home />} />
       <Route path="/home" element={<Home />} />
       <Route path="/sidebar" element={<Sidebar />} />
       <Route path="/getStarted" element={<GetStarted />} />
