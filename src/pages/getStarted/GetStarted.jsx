@@ -38,7 +38,6 @@ export default function GetStarted() {
         You're three steps away from getting the best browsing experience.
       </h2>
       <div className="div-container-card">
-        {" "}
         {/* <Img1 /> */}
         {arr.map((i) => (
           <Card det={i} />
@@ -46,7 +45,8 @@ export default function GetStarted() {
       </div>
       <h5>Enjoy these latest features and much more with Microsoft Edge.</h5>
       <Button variant="primary width-fix">
-        Start Browsing<i class="fa-solid fa-inbox-out"></i>
+        <span className="my-btn-77">Start Browsing</span>
+        <i class="fa-solid fa-inbox-out"></i>
       </Button>{" "}
     </div>
   );
