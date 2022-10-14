@@ -39,18 +39,18 @@ function BrandExample() {
                 <Nav.Link href="#feeds">News feed</Nav.Link>
               </Link>
               <Link className="nav-bar anchor" to="/Shopping">
-                <Nav.Link href="#Shopping">Shopping in sidebar</Nav.Link>
+                <Nav.Link href="/Shopping">Shopping in sidebar</Nav.Link>
               </Link>
               <Link className="nav-bar anchor" to="/activity">
-                <Nav.Link href="#Shoppingactivity">Shopping activity</Nav.Link>
+                <Nav.Link href="/activity">Shopping activity</Nav.Link>
               </Link>
               {/* "/sidebar" */}
               <Link className="nav-bar anchor" to="/sidebar">
                 {" "}
-                <Nav.Link href="#sidebar">Sidebar</Nav.Link>
+                <Nav.Link href="/sidebar">Sidebar</Nav.Link>
               </Link>{" "}
               <Link className="nav-bar anchor" to="/getStarted">
-                <Nav.Link eventKey={2} href="#getStarted">
+                <Nav.Link eventKey={2} href="/getStarted">
                   Get started
                 </Nav.Link>
               </Link>

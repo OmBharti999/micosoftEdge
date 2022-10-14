@@ -1,0 +1,10 @@
+/* for news fees */
+.news-feeds {
+  height: 60vh;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1vh;
+  
+}
