@@ -5,7 +5,7 @@
   overflow: scroll;
 }
 /*  */
-.sidebar-sec.::-webkit-scrollbar {
+.sidebar-sec::-webkit-scrollbar {
   display: none;
   background-color: aquamarine;
 }
