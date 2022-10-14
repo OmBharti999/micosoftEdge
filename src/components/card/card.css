@@ -4,5 +4,13 @@
 /* width: 5vw;
 } */
 .div-for-card {
-  overflow: hidden;
+  display: flex;
+  height: 30vh;
+  font-size: 1rem;
+  /* height: 30vh; */
+  /* overflow: hidden; */
+}
+
+.card-text {
+  font-size: 0.6rem;
 }
