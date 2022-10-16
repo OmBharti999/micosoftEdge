@@ -11,14 +11,13 @@ export default function Shopping() {
     <div className="sidebar-conataier">
       <div className="sidebar-first">
         <h1 className="start">
-          Never miss a<br />
-          <Ct text="shopping deal" />
+          Personalized <br />
+          <Ct text="shopping" />
         </h1>
         <div className="start">
-          Hover over your favorite retailers on the new tab page to see
-          additional shopping information, saving you time and money.
-          <div className="btn-div-flex">
-            <But2 text="Try now" />
+         The sidebar in Microsoft Edge allows you to shop your personal feed without leaving your browser window, allowing you to stay in your flow.
+    <div className="btn-div-flex">
+            <But2 text="Start shopping" />
           </div>
         </div>
         <div className="start">
