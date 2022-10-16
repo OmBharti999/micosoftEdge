@@ -11,16 +11,13 @@ export default function Activity() {
     <div className="sidebar-conataier">
       <div className="sidebar-first">
         <h1 className="start">
-          {" "}
-          <Ct text="Multitasking" /> with your sidebar{" "}
+          Never miss a <br/>
+          <Ct text="shopping deal" />
         </h1>
         <div className="start">
-          Get more done on the web with tools, apps, and more just a click away.
-          Say goodbye to switching tabs.
+         Hover over your favorite retailers on the new tab page to see additional shopping information, saving you time and money.
           <div className="btn-div-flex">
-            <But2 text="Office on sidebar" />
-            <But2 text="Outlook on sidebar" />
-            <But2 text="Discover on sidebar" />
+            <But2 text="Try now" />
           </div>
         </div>
         <div className="start">
